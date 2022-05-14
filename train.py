@@ -29,5 +29,5 @@ def predict(x_test, y_test, model: Sequential):
 def label_tranform(labels):
     values = []
     for i in range(0, len(labels)):
-        values.append(round(labels[i]))
+        values.append(round(labels[i][0]))
     return np.asarray(values, np.int32)

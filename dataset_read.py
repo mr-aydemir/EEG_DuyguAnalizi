@@ -1,8 +1,5 @@
-from mimetypes import init
 import numpy as np
 import pandas as pd
-from tensorflow.python.framework import dtypes
-import tensorflow as tf
 
 trainDataUrl="train_data.csv"
 trainLabelUrl="train_label.csv"

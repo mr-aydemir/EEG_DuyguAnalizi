@@ -1,10 +1,8 @@
-from numpy import ndarray
 from dataset_read import *
 from keras.layers.recurrent import GRU
 from keras.layers.recurrent import LSTM
 from keras.layers.recurrent import SimpleRNN
 from sklearn.preprocessing import StandardScaler
-
 from train import predict, train
 
 if (__name__ == "__main__"):
